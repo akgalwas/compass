@@ -14,7 +14,7 @@ The goal of this document is to consider what should be next steps in Provisione
 ## Questions to answer
 
 - What changes to Provisioner API need to be introduced?
-- Do we need to introduce a new micro service ([Hyperscaler Account Pool](hyperscaller-account-pool-api-design.md)). 
+- Do we need to introduce a new micro service ([Hyperscaler Account Pool](./hyperscaller-account-pool-api-design.md)). 
   - Can we skip it in a short term and implement a component inside Provisioner? 
   - Is it vital in a long term?  
 
@@ -62,7 +62,7 @@ In the next steps above logic will be changed (credential could be saved in some
 
 ### Introducing separate microservice for credentials management (HAP)
 
-The microservice will be responsible for storing and returning credentials. The API schema is defined ([here](hyperscaller-account-pool-api-design.md)). 
+The microservice will be responsible for storing and returning credentials. The API schema is defined ([here](./hyperscaller-account-pool-api-design.md)). 
 
 Pros
 
