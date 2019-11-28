@@ -66,7 +66,7 @@ The microservice will be responsible for storing and returning credentials. The 
 
 Pros
 
-- Clear responsibilities : provisioner responsible for Kyma installation, HAP responsible for credentials management. Both services have different reason for change: we ned to change Provisioner code only if we change the way clusters are provisioned/deptovisioned. When we change the way credentials are extracted based on credential name there is no need to change Provisioner.
+- Clear responsibilities : provisioner responsible for Kyma installation, HAP responsible for credentials management. Both services have different reason for change: we need to change Provisioner code only if we change the way clusters are provisioned/deptovisioned. When we change the way credentials are extracted based on credential name there is no need to change Provisioner.
 
 Cons
 
